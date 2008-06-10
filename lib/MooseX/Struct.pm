@@ -7,7 +7,7 @@ use Moose ();
 use Sub::Install;
 use Carp;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 sub import {
    my $class = shift;
@@ -204,13 +204,13 @@ sub _usage {
 
 __END__
 
-=head1 Name
+=head1 MooseX::Struct
 
 MooseX::Struct - Struct-like interface for Moose Object creation
 
 =head1 Version
 
-Version 0.05
+Version 0.06
 
 =cut
 

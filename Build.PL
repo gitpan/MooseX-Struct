@@ -5,8 +5,8 @@ use Module::Build;
 my $builder = Module::Build->new(
     module_name         => 'MooseX::Struct',
     license             => 'perl',
-    dist_author         => 'Jarrod Overson <jsoverson@gmail.com>',
-    dist_abstract       => 'Class::Struct for Moose',
+    dist_author         => 'Jarrod Overson <jsoverson@googlemail.com>',
+    dist_abstract       => 'Struct-like interface for Moose',
     dist_version_from   => 'lib/MooseX/Struct.pm',
     build_requires      => {
         'Test::More' => 0,
